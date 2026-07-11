@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 # Yahan apni API Key daalein
-genai.configure(api_key="GEMINI API KEY")
+genai.configure(api_key="AQ.Ab8RN6LYKC0vsRiXNciQfdpZ89T412eZse8xEk4NA7cMyCWDZw")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 @app.post("/extract")
